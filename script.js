@@ -13,16 +13,8 @@ function addnotes(){
         newdel.textContent="Delete";
         newdel.addEventListener("click",()=>{
             notelist.removeChild(newlist);
-
-        })
+})
         
         newlist.appendChild(newdel);
-        
-        
-
-
-    }
-    
-    
-    
-}
+ }
+ }
